@@ -12,7 +12,7 @@ source:
 build:
   skip: True  # [not unix]
   script: {{ PYTHON }} -m pip install . --no-deps -vv
-  number: 1
+  number: 2
   entry_points:
     - openconnect-sso = openconnect_sso.cli:main
 
